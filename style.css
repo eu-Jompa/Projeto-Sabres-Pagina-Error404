@@ -1,0 +1,65 @@
+
+* {
+width: 1440px;  
+padding: 0px;
+margin: 00px;
+box-sizing: border-box;
+    }
+body {
+    
+    background-image: url(https://cearasabres.com.br/wp-content/uploads/2024/01/BG-SITE-SABRES.webp);
+    overflow: hidden;
+}
+
+section {
+    margin-top: 0;
+width: 100%;
+height: 100%;
+position: relative;
+}
+img {
+position: absolute;
+width: 200px;
+fill: rgb(0, 81, 255);
+}
+
+.container{
+    width: 50%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 10%;
+    position: fixed;
+    top: 10%;
+    left: 15%;
+
+}
+.container h1,p{
+    font-family: "Courier Prime", monospace;
+    color: white;
+    font-weight: 700;
+    font-size: 32px;
+    width: 1000px;
+}
+.container p{
+    background-color: #B223B2 ;
+}
+
+.progress{
+    width: 100%;
+}
+.progress-bar{
+    background-color: blueviolet;
+}
+
+
+@media (max-width: 768px) {
+    img {
+        width: 150px;
+    }
+
+}
+
